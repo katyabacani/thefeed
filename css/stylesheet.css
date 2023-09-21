@@ -23,9 +23,9 @@ header{
 }
 
 nav{
-    border: black;
-    font-size: xx-large
+    font-size: xx-large; 
     font-family: 'Bebas Neue' ;
+    width: 500px;
     
 }
 
@@ -42,7 +42,9 @@ main{
 section {
     margin: auto;
     text-align: center;
+    
 }
+
 
 footer{
     width: 300px;
@@ -64,15 +66,23 @@ footer{
 }
 
 #feedgif {
+    border: 1px black solid;
     position: fixed;
     top: 200px; 
     left: 5px; 
 }
 
+#navsplash {
+    position: fixed;
+    top: 200px; 
+    left: 5px; 
+}
+
+
 #feedmain {
     font-family: Bebas Neue;
     font-size: xx-large;
-top: 1000px;
+    top: 1000px;
 }
 
 
