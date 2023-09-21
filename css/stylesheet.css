@@ -9,7 +9,9 @@ body{
 }
 
 header{
+   
     font-family: 'Bebas Neue';
+    font-size: 500px;
     position: fixed;
     top: 0px; 
     left: 0px;
@@ -21,12 +23,15 @@ header{
 }
 
 nav{
- 
-    font-size: medium;
+    border: black;
+    font-size: xx-large
     font-family: 'Bebas Neue' ;
+    
 }
 
 main{
+    top: 500px;
+    border-style: double;
     border: #9ea04d;
     max-width: 700px;
     margin-left: 500px;
@@ -42,13 +47,35 @@ section {
 footer{
     width: 300px;
     bottom: 25px;
-    left: 25px;
+    left: 200px;
 }
 
 #splash_bg {
-    background-color: aqua;
+    background-color: #9ea04d
 }
 
 #splash_feed {
-    background-color:lightgray; 
+    background-color: antiquewhite; 
+}
+#splashtext {
+    font-size: 100px
+    
+  
+}
+
+#feedgif {
+    position: fixed;
+    top: 200px; 
+    left: 5px; 
+}
+
+#feedmain {
+    font-family: Bebas Neue;
+    font-size: xx-large;
+top: 1000px;
+}
+
+
+#yourprofile {
+    
 }
