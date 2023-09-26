@@ -9,8 +9,13 @@ body{
 }
 
 header{
+<<<<<<< HEAD
     font-style: oblique;
+=======
+   
+>>>>>>> c32560d947c1e4285f4b4c67e47f09f5ea5cd6ca
     font-family: 'Bebas Neue';
+    font-size: 500px;
     position: fixed;
     top: 0px; 
     left: 0px;
@@ -22,17 +27,29 @@ header{
 }
 
 nav{
+<<<<<<< HEAD
  
     font-size: small;
+=======
+    font-size: xx-large; 
+>>>>>>> c32560d947c1e4285f4b4c67e47f09f5ea5cd6ca
     font-family: 'Bebas Neue' ;
+    width: 500px;
+    
 }
 
 main{
+<<<<<<< HEAD
     color: darkblue;
     font-size: 30pt;
     font-family: bebas neue;
     border-width: 10px; border-style: double; border-color: rgb(70, 174, 248);
     border-radius: 10px;
+=======
+    top: 500px;
+    border-style: double;
+    border: #9ea04d;
+>>>>>>> c32560d947c1e4285f4b4c67e47f09f5ea5cd6ca
     max-width: 700px;
     margin-left: 500px;
     background-image: url(../img/newspaper.jpg)
@@ -43,12 +60,14 @@ main{
 section {
     margin: auto;
     text-align: center;
+    
 }
+
 
 footer{
     width: 300px;
     bottom: 25px;
-    left: 25px;
+    left: 200px;
 }
 #navsplash {
     margin-bottom: 400px;
@@ -57,6 +76,7 @@ footer{
 }
 
 #splash_bg {
+<<<<<<< HEAD
     background-color: azure;
     background-image: url(../img/orangeora.jpg);
     background-size: cover;
@@ -166,3 +186,41 @@ h3{
     margin-right: 300px;
 }
 
+=======
+    background-color: #9ea04d
+}
+
+#splash_feed {
+    background-color: antiquewhite; 
+}
+#splashtext {
+    font-size: 100px
+    
+  
+}
+
+#feedgif {
+    border: 1px black solid;
+    position: fixed;
+    top: 200px; 
+    left: 5px; 
+}
+
+#navsplash {
+    position: fixed;
+    top: 200px; 
+    left: 5px; 
+}
+
+
+#feedmain {
+    font-family: Bebas Neue;
+    font-size: xx-large;
+    top: 1000px;
+}
+
+
+#yourprofile {
+    
+}
+>>>>>>> c32560d947c1e4285f4b4c67e47f09f5ea5cd6ca
