@@ -80,19 +80,33 @@ footer{
 #navmain {
     color: antiquewhite;
     background-image: url(../img/blue\ ora.jpg);
-    background-size: contain;
-     font-size: 20pt;
-    margin-top: 10px;
-    margin-right: 700px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-size: 20pt;
+    width: 300px;
+    height: 300px; 
+    overflow-y: scroll;
+    top: 400px;
+    left: 25px;
     position: fixed;
     border-width: 10px; border-style: double; border-color: rgb(70, 174, 248);
     border-radius: 10px;
     background-position: center;
-    
-    
-    
+     
     
 }
+
+#navmain a{
+    text-decoration: none;
+
+}
+
+#navmain a:hover{
+    background-color: yellow;
+
+}
+
+
 #alarm {
     border-style: solid; border-width: 10px; border-color: burlywood;
     margin-left: 75px;
