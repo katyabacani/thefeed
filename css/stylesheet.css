@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    font-style: oblique;
     font-family: 'Bebas Neue';
     position: fixed;
     top: 0px; 
@@ -22,15 +23,20 @@ header{
 
 nav{
  
-    font-size: medium;
+    font-size: small;
     font-family: 'Bebas Neue' ;
 }
 
 main{
-    border: #9ea04d;
+    color: darkblue;
+    font-size: 30pt;
+    font-family: bebas neue;
+    border-width: 10px; border-style: double; border-color: rgb(70, 174, 248);
+    border-radius: 10px;
     max-width: 700px;
     margin-left: 500px;
-    background-color: #9ea04d
+    background-image: url(../img/newspaper.jpg)
+   
 
 }
 
@@ -44,11 +50,119 @@ footer{
     bottom: 25px;
     left: 25px;
 }
+#navsplash {
+    margin-bottom: 400px;
+    margin-left: 150px;
+    padding-bottom: 400px;
+}
 
 #splash_bg {
-    background-color: #9ea04d;
+    background-color: azure;
+    background-image: url(../img/orangeora.jpg);
+    background-size: cover;
+    
 }
 
 #splash_feed {
     background-color:lightgray; 
+    
+    background-size: cover;
 }
+#welcome {
+
+    margin-left: 450px;
+}
+#navmain {
+    color: antiquewhite;
+    background-image: url(../img/blue\ ora.jpg);
+    background-size: contain;
+     font-size: 30pt;
+    margin-top: 10px;
+    margin-right: 700px;
+    position: fixed;
+    border-width: 10px; border-style: double; border-color: rgb(70, 174, 248);
+    border-radius: 10px;
+    background-position: center;
+    
+    
+    
+    
+}
+#alarm {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#farmersmarket {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#dispo {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+    font-size: 30pt;
+}
+#vinyl {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#onthego {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#music {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#text {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#meandtay {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#vinyl {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#book {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#dinner {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+#video {
+    border-style: solid; border-width: 10px; border-color: burlywood;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+ol {
+    list-style-type: none;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: auto; 
+}
+p {
+    background-color: aliceblue;
+}
+h3{
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 300px;
+}
+
